@@ -1,0 +1,14 @@
+{
+  "name": "proxy-micros",
+  "version": "1.0.0",
+  "description": "Open CORS proxy server",
+  "main": "index.js",
+  "author": "Fabrice K.M.E",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js"
+  },
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
+}
